@@ -412,7 +412,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("/goit-markup-hw-04/images/people-office.jpg");
+      url("../images/people-office@1x.jpg");
     width: 100%;
     height: 432px;
     background-position: center;
@@ -420,6 +420,15 @@ button {
     background-repeat: no-repeat;
     margin: 0 auto;
     padding: 112px 0;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .box {
+      background-image: url(../images/people-office@2x.jpg);
+    }
   }
 
   .main-header {

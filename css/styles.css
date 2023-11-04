@@ -1435,14 +1435,7 @@ button {
   }
 
   .clients-list {
-    display: flex;
-    gap: 24px;
-    justify-content: space-around;
-  }
-
-  .client-icon-box {
-    width: 168px;
-    height: 88px;
+    flex-wrap: nowrap;
   }
 
   .portfolio-main-section {
